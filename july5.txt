@@ -1,0 +1,33 @@
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Sowmya (master)
+$ cd D:\Test
+
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Test
+$ git init
+Initialized empty Git repository in D:/Test/.git/
+
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Test (master)
+$ git add .
+warning: in the working copy of 'july5.txt', LF will be replaced by CRLF the next time Git touches it
+
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Test (master)
+$ git commit -m "first commit"
+[master (root-commit) eddfd5d] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 july5.txt
+
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Test (master)
+$ git remote add origin https://github.com/sowmyaj10/Test.git
+
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Test (master)
+$ git remote -v
+origin  https://github.com/sowmyaj10/Test.git (fetch)
+origin  https://github.com/sowmyaj10/Test.git (push)
+
+Bala@LAPTOP-IN15CNL8 MINGW64 /d/Test (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 261 bytes | 261.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sowmyaj10/Test.git
+ * [new branch]      master -> master
